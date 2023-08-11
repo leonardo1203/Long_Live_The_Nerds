@@ -57,7 +57,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://ls60xj0gcg.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+            fetch("https://longlivethenerds.com", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
